@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Aventura Mágica</title>
+</head>
+<body>
+   
+
+   <main> 
+       <div class="passo ativo" id="passo-0"> 
+          <img src="cenario-passo0.png" alt="">
+          <p> Hello Kitty, Korumi e My Melody se preparam para dormir quando pensam que seria uma boa ideia levar os seus amigos para um dia relaxante. Porém, elas estão em duvida de onde passarem esse dia! Nos ajude a decidir, você escolheria A Praia dos Sonhos ou Parque Encantado?</p>
+          <button class="btn-proximo" data-proximo="1">Praia dos Sonhos</button>
+          <button class="btn-proximo" data-proximo="2">Parque das Estrelas</button>
+       </div>
+
+       <div class="passo" id="passo-1"> 
+          <img src="cenario-passo1.png" alt="">
+          <p> Uau, que ótima escolha! Estamos a caminho da Praia dos Sonhos, um lugar famoso por suas águas cristalinas e areias brancas. Ao chegar na praia, todos se acomodam e admiram a beleza da praia.Enquanto conversava com My Melody, Kuromi avista algo suspeito enterrado na areia. É um baú de tesouro!Dentro dele há conchas, pérolas brilhantes e um lindo colar misterioso. O que devemos fazer? </p>
+          <button class="btn-proximo" data-proximo="3">Experimentar o colar</button>
+        </div>
+            <div class="passo" id="passo-3"> 
+              <img src="cenario-passo3.png" alt="">
+              <p>Ao colocá-lo, todos são magicamente transformados em sereias!Eles nadam e exploram o fundo do mar, mas logo percebem que precisam descobrir como reverter a transformação.Um grupo de golfinhos amigáveis ou uma tartaruga sábia oferece orientação, que falam sobre uma antiga fonte mágica que pode desfazer o feitiço do colar.</p>
+              <button class="btn-proximo" data-proximo="7">Aceitar ajuda</button>
+           </div>
+                   <div class="passo" id="passo-7">
+                      <img src="cenario-passo7.png" alt="">
+                      <p>Com a informação obtida, devemos encontrar o local onde o feitiço pode ser revertido. Depois de completar o desafio, o feitiço é desfeito e seus amigos retornam à forma humana.Com a transformação revertida, seus amigos celebram a incrível aventura e os momentos especiais que compartilharam como sereias. Eles passam o resto do dia na praia, desfrutando do sol e da companhia um do outro, com uma nova história para contar.</p>
+                   </div>
+        
+        <div class="passo" id="passo-2">
+           <img src="cenario-passo2.png" alt="">
+           <p> Chegamos no Parque das Estrelas, um local conhecido por seus vastos gramados e lindas áreas para piquenique. A área está linda e cheia de flores. Uau! Há um mapa antigo encontrado entre as folhas que parece mostrar uma rota para algo especial no parque. Para onde esse mapa irá nos levar?</p>
+           <button class="btn-proximo" data-proximo="5"> Explore o Parque das Estrelas</button>
+        </div>
+
+            <div class="passo" id="passo-5">
+               <img src="cenario-passo5.jpeg" alt="">
+               <p> Eles seguem o caminho indicado, passando por um campo de flores e atravessando uma porta onde encontram uma caixa misteriosa. Dentro dela há um lindo bolo! Oba, vamos comemorar nossa conquista e continuar nosso piquenique!</p>
+             </div>
+       
+   </main>
+     <script src="script.js"></script>
+
+</body>
+</html>
